@@ -40,18 +40,25 @@ body{
 .image{
     justify-content: right;
 }
-.button{
+#form{
     margin-top: 30px;
     border: 2px solid hsl(0, 36%, 70%);
     width: 400px;
-    padding: 10px 0;
+    padding: 15px 0;
     border-radius: 25px;
 }
-.button{}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 @media screen and (max-width: 600px) {
     .image img{
         background-image: url(./images/hero-mobile.jpg);
+    }
+    .main{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .logo{
+
     }
 }
